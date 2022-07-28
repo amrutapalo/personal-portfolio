@@ -21,13 +21,13 @@ const Intro = () => {
                         </div>
                     </div>
                     <div className="i-desc">
-                        I'm a creative designer and developer based in India.
+                        I design and develop experiences that makes lives easier through Web. I work with React, Javascript, HTML 5 and CSS3.
                     </div>
                 </div>
             </div>
             <div className="i-right">
                 <div className="i-right-wrapper">
-                    <div className="i-img bg"></div>
+                    {/* <div className="i-img bg"></div> */}
                     <img src={avatar} alt="" className='i-img' />
                 </div>
             </div>
