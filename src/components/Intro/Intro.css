@@ -1,0 +1,133 @@
+:root {
+    --orange-colour: orange;
+    --font-size: 16px;
+    --gray-colour: #263238;
+    --background-colour: #f9fbfc;
+    --clr-travel: #ef257a;
+    --clr-technology: #651fff;
+    --clr-personal: #e85808;
+}
+
+
+.i{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: var(--background-colour);
+}
+
+.i-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.i-right{
+    flex: 1;
+    
+}
+
+.i-right-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.i-left-wrapper{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    
+}
+
+.i-intro{
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.i-name{
+    font-size: 60px;
+    margin: 0;
+}
+
+.i-title{
+    height: 5vw;
+    overflow: hidden;
+}
+
+.i-title-wrapper{
+    height: 100%;
+    animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+    25%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(-100px);
+    }
+    75%{
+        transform: translateY(-150px);
+    }
+    100%{
+        transform: translateY(-200px);
+    }
+}
+
+.i-title-item{
+    height: 5vw;
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: var(--orange-colour);
+    display: flex;
+    align-items: center;
+}
+
+.i-desc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.i-img{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    position: absolute;
+    clip-path: circle();
+}
+
+.i-img.bg{
+    /* width: 60%;
+    height: 60%;
+    object-fit: contain;
+    position: absolute;
+    clip-path: circle(); */
+
+    border-radius: 50%;
+    width: 50vh;
+    height: 50vh;
+    color: #263238;
+    position: absolute;
+}
+
+.i-right-wrapper{
+    position: relative;
+}
+
+.i-bg{
+    clip-path: polygon(62% 68%, 100% 0%, 100% 100%, 0 100%, 86% 88%);
+    background-color: var(--orange-colour);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+
+}
