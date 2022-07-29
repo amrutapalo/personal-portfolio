@@ -1,25 +1,46 @@
-.card q::before{
+.card q::before {
     content: '\201c';
     color: rgb(255, 119, 0);
     font-size: 2em;
     font-style: normal;
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-} 
+}
 
-/* .card q::after{
-    content: '\201d';
-    color: rgb(255, 119, 0);
-    font-size: 2em;
-    font-style: normal;
-    font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    position: absolute;
-    bottom: 0px;
-}  */
-
-.container-wrapper{
+.carousel {
     display: flex;
-    flex-direction: row;
-    cursor: default;
+    flex-direction: column;
+    background-color: #eceff1;
+    height: 60vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-container {
+    display: flex;
+    width: 53vh;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-heading{
+    margin-bottom: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-title {
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+
+.carousel-subtitle {
+    margin-top: 1px;
+    letter-spacing: 1px;
+    font-size: 10px;
+    opacity: 0.5;
 }

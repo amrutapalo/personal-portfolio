@@ -1,5 +1,5 @@
 :root{
-    --font-size: 12px;
+    --font-size: 14px;
     --orange-colour: orange;
     --gray-colour: #263238;
     --background-colour: #eceff1;
@@ -15,7 +15,7 @@
     padding: 2em;
     box-sizing: border-box;
     height: 25em;
-    width: 35em;
+    width: 50vh;
     font-size: var(--font-size);
     position: relative;
 }
@@ -47,6 +47,7 @@
 }
 
 .testimonial-by{
+    flex:1;
     display: flex;
     flex-direction: column;
     justify-content: center;
