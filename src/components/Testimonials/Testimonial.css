@@ -1,0 +1,24 @@
+.card q::before{
+    content: '\201c';
+    color: rgb(255, 119, 0);
+    font-size: 2em;
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+} 
+
+/* .card q::after{
+    content: '\201d';
+    color: rgb(255, 119, 0);
+    font-size: 2em;
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    bottom: 0px;
+}  */
+
+.container-wrapper{
+    display: flex;
+    flex-direction: row;
+}
