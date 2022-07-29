@@ -5,7 +5,7 @@ import Resume from '/Users/amrutapalo/Desktop/personal-portfolio/src/documents/R
 
 const Intro = () => {
     return (
-        <div className="i">
+        <div className="i" id='home'>
             <div className="i-bg">
             </div>
             <div className="i-left">
@@ -26,7 +26,7 @@ const Intro = () => {
                     </div>
                     <a href={Resume} download="Resume-AMRUTA-PALO" target='_blank'>
                         <button className="download-resume-btn">
-                            <i class="fa fa-download"></i> DOWNLOAD RESUME
+                            <i className="fa fa-download"></i> DOWNLOAD RESUME
                         </button>
                     </a>
 

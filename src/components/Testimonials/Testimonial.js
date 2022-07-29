@@ -39,7 +39,7 @@ const Testimonial = () => {
     ];
 
     return (
-        <div className="carousel">
+        <div className="carousel" id='testimonial'>
             <div className="carousel-heading">
                 <h2 className="carousel-title">
                     Testimonial

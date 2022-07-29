@@ -19,12 +19,10 @@ const Contact = () => {
                 console.log(error.text);
             });
 
-        
-
     }
 
     return (
-        <div className="c">
+        <div className="c" id='contact'>
             <div className="c-wrapper">
                 <div className="c-left">
                     <div className="c-left-wrapper">
