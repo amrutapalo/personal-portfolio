@@ -1,6 +1,7 @@
 import React from 'react'
 import './Intro.css'
-import avatar from '/Users/amrutapalo/Desktop/personal-portfolio/src/images/amrutpalo-profile.JPG'
+import avatar from '/Users/amrutapalo/Desktop/personal-portfolio/src/images/amrutpalo-profile.JPG';
+import Resume from '/Users/amrutapalo/Desktop/personal-portfolio/src/documents/Resume-amruta.pdf';
 
 const Intro = () => {
     return (
@@ -23,6 +24,12 @@ const Intro = () => {
                     <div className="i-desc">
                         I design and develop experiences that makes lives easier through Web. I work with React, Javascript, HTML 5 and CSS3.
                     </div>
+                    <a href={Resume} download="Resume-AMRUTA-PALO" target='_blank'>
+                        <button className="download-resume-btn">
+                            <i class="fa fa-download"></i> DOWNLOAD RESUME
+                        </button>
+                    </a>
+
                 </div>
             </div>
             <div className="i-right">
