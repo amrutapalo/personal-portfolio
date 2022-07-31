@@ -22,7 +22,7 @@ const Intro = () => {
                         </div>
                     </div>
                     <div className="i-desc">
-                        I design and develop experiences that makes lives easier through Web. I work with React, Javascript, HTML 5 and CSS3.
+                        I develop experiences that makes lives easier through Web. I work with React, Javascript, HTML 5 and CSS3.
                     </div>
                     <a href={Resume} download="Resume-AMRUTA-PALO" target='_blank'>
                         <button className="download-resume-btn">

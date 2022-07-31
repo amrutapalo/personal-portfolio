@@ -53,7 +53,8 @@ const Testimonial = () => {
                     effect={"coverflow"}
                     grabCursor={true}
                     centeredSlides={true}
-                    slidesPerView={"auto"}
+                    slidesPerView={3}
+                    loopFillGroupWithBlank={false}
                     coverflowEffect={{
                         rotate: 50,
                         stretch: 0,

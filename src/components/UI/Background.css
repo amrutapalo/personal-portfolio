@@ -1,0 +1,10 @@
+.Background {
+    clip-path: polygon(100% 0%, 100% 59%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    background-color: orange;
+    z-index: 1000;
+    height: 100vh;
+    width: 60%;
+    position: fixed;
+    z-index: -1;
+    right: 0;
+}

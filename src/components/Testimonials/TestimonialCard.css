@@ -12,8 +12,8 @@
     margin: 1em;
     padding: 2em;
     box-sizing: border-box;
-    height: 23em;
-    width: 50vh;
+    width:  270px;
+    height: 60vh;
     font-size: var(--font-size);
     position: relative;
 }

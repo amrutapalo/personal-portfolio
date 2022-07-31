@@ -132,7 +132,8 @@ const Contact = () => {
                                 <input type="text" placeholder='Email' name="email" />
                                 {!enteredInputIsValid.email && isTouched && <p className="error-text">Entered email is invalid</p>}
                                 <textarea placeholder='Message' name="message" />
-                                {didSubmit ? <p>Thankyou!</p> : <button type='submit' className='button'>Submit</button>}
+                                <button type='submit' className='button'>SUBMIT</button>
+                                {didSubmit ? <p>Thankyou!</p> : ''}
                             </form>
                         </div>
 

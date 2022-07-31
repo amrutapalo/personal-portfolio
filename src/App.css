@@ -34,11 +34,3 @@
     transform: rotate(360deg);
   }
 } */
-
-.background-image{
-  clip-path: polygon(100% 0%, 100% 55%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-  color: rgb(255, 136, 0);
-  position: absolute;
-  width: 50%;
-  height: 100vh;
-}

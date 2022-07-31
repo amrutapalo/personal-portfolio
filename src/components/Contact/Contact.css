@@ -4,7 +4,6 @@
 }
 
 .c {
-
 }
 
 .c-wrapper {
@@ -63,10 +62,11 @@
 }
 
 .c-right-title {
-    font-size: 0.8em;
-    margin-bottom: 2em;
+    font-size: 0.9em;
+    margin-bottom: 1em;
     letter-spacing: 0.08em;
     cursor: default;
+    color: white;
 
 }
 
@@ -86,7 +86,7 @@
 }
 
 .title-light {
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .form-container {
@@ -100,9 +100,10 @@ input {
     width: 50%;
     border: none;
     border-bottom: 1px solid black;
-    padding: 0.2em;
+    padding: 0.5em;
     font-weight: 350;
     margin-top: 1em;
+    border-radius: 5px;
 
 }
 .error-text{
@@ -119,12 +120,11 @@ input:focus {
 textarea {
     height: 7em;
     width: 96%;
-    padding: 0.5em;
+    padding: 0.6em;
     border: 1px solid black;
     font-weight: 300;
     margin-top: 2em;
-
-
+    border-radius: 5px;
 }
 
 textarea:focus {
@@ -136,17 +136,18 @@ button {
     padding: 0.5em;
     margin: 0.5em;
     margin-left: 0;
-    color: white;
+    color: var(--orange-colour);
     font-weight: 500;
     border: none;
     border-radius: 3%;
-    width: 25%;
-    background-color: var(--orange-colour);
+    width: 20%;
+    background-color: white;
+    font-weight: bold;
 }
 
 button:hover {
     cursor: pointer;
-    background-color: rgb(255, 157, 0);
+    color: rgb(255, 123, 0);
 }
 
 

@@ -18,7 +18,6 @@
 
 .carousel-container {
     display: flex;
-    width: 32vw;
     object-fit: cover;
     align-items: center;
     justify-content: center;
@@ -43,3 +42,17 @@
     font-size: 10px;
     opacity: 0.5;
 }
+
+.mySwiper{
+    background-color: blue;
+    height: 65vh;
+    background-color: inherit;
+}
+
+/* .swiper-wrapper{
+    background-color: black;
+}
+
+.swiper-slide{
+    background-color: blueviolet;
+} */
