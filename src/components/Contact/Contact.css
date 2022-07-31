@@ -1,24 +1,21 @@
-:root{
+:root {
     --font-size: 16px;
     --orange-colour: orange;
 }
 
-.c{
- background-color: var(--orange-colour); 
+.c {
 
 }
 
-.c-wrapper{
+.c-wrapper {
     display: flex;
     height: 100vh;
     padding: 1em;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #eceff1;
-
 }
 
-.c-left{
+.c-left {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -30,10 +27,10 @@
 
 }
 
-.c-left-wrapper{
+.c-left-wrapper {
     /* background-color: beige;  */
-    display: flex;  
-    flex-direction: column; 
+    display: flex;
+    flex-direction: column;
     align-items: flex-start;
     justify-content: space-evenly;
     align-items: flex-start;
@@ -43,18 +40,18 @@
 
 }
 
-.c-left-title{
+.c-left-title {
     font-size: 3.5em;
     margin-bottom: 0.5em;
 }
 
-.c-item{
+.c-item {
     display: flex;
     flex-direction: row;
     margin: 1em;
 }
 
-.c-right{
+.c-right {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -62,10 +59,10 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    
+
 }
 
-.c-right-title{
+.c-right-title {
     font-size: 0.8em;
     margin-bottom: 2em;
     letter-spacing: 0.08em;
@@ -73,63 +70,69 @@
 
 }
 
-.c-right-wrapper{
+.c-right-wrapper {
     /* background-color: blueviolet; */
-    display: flex;  
-    flex-direction: column; 
+    display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     padding: 3em;
 
 }
 
-.c-item-icon{
+.c-item-icon {
     height: 25px;
     width: 25px;
     margin-right: 1em;
 }
 
-.title-light{
+.title-light {
     font-weight: 300;
 }
 
-.form-container{
+.form-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 }
 
-input{
+input {
     height: 3em;
     width: 50%;
-    margin-bottom: 1.2em;
     border: none;
     border-bottom: 1px solid black;
     padding: 0.2em;
-    background-color: #eceff1;
     font-weight: 350;
+    margin-top: 1em;
 
 }
-input:focus{
+.error-text{
+    margin-bottom: 1.2em;
+    font-size: 0.7em;
+    color: rgb(235, 13, 13);
+}
+
+input:focus {
     outline: none;
     border-bottom: 1.5px solid var(--orange-colour);
 }
 
-textarea{
+textarea {
     height: 7em;
     width: 96%;
     padding: 0.5em;
     border: 1px solid black;
-    background-color: #eceff1;
     font-weight: 300;
+    margin-top: 2em;
+
 
 }
 
-textarea:focus{
+textarea:focus {
     outline: none;
     border: 1.5px solid var(--orange-colour);
 }
 
-button{
+button {
     padding: 0.5em;
     margin: 0.5em;
     margin-left: 0;
@@ -141,9 +144,35 @@ button{
     background-color: var(--orange-colour);
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
     background-color: rgb(255, 157, 0);
 }
 
+
+/* MEDIA QUERIES ALL DEVICES */
 /* width: 820 */
+
+@media (min-width:320px) {
+    /* smartphones, iPhone, portrait 480x320 phones */
+}
+
+@media (min-width:481px) {
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+}
+
+@media (min-width:641px) {
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+}
+
+@media (min-width:961px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+
+@media (min-width:1025px) {
+    /* big landscape tablets, laptops, and desktops */
+}
+
+@media (min-width:1281px) {
+    /* hi-res laptops and desktops */
+}

@@ -8,10 +8,10 @@ import NavBar from './components/UI/NavBar';
 function App() {
   return (
     <div className="App">
-      <NavBar></NavBar>
-      <Intro></Intro>
-      <Testimonial></Testimonial>
-      <Contact></Contact>
+        <NavBar></NavBar>
+        <Intro></Intro>
+        <Testimonial></Testimonial>
+        <Contact></Contact>
     </div>
   );
 }

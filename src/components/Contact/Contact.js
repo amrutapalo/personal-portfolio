@@ -1,23 +1,65 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import './Contact.css'
 import addressIcon from '/Users/amrutapalo/Desktop/personal-portfolio/src/icons/address.png';
 import phoneIcon from '/Users/amrutapalo/Desktop/personal-portfolio/src/icons/phone.png'
 import emailIcon from '/Users/amrutapalo/Desktop/personal-portfolio/src/icons/email.png'
 import emailjs from '@emailjs/browser';
 
+const isEmpty = value => value.trim() === '' ? true : false;
+
 const Contact = () => {
     const form = useRef();
+    // const [enteredInput, setEnteredInput] = useState({ name: '', subject: '', email: '', message: '' })
+    const [enteredInputIsValid, setEnteredInputIsValid] = useState({ name: true, subject: true, email: true });
+    const [didSubmit, setDidSubmit] = useState(false);
+
+    let nameIsValid = false;
+    let subjectIsValid = false;
+    let emailIsValid = false;
+
 
     const onContactSubmitHandler = (event) => {
         event.preventDefault();
+        const form_submitted = form.current;
 
-        
-        emailjs.sendForm('service_12zp0cn', 'template_p2laasx', form.current, 'mcYuAx8nf9nZk0jPO')
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
+        const nameInput = form_submitted['name'].value;
+        const subjectInput = form_submitted['subject'].value;
+        const emailInput = form_submitted['email'].value;
+        const messageInput = form_submitted['message'].value;
+        console.log(nameInput, subjectInput, emailInput);
+
+        nameIsValid = !isEmpty(nameInput);
+        subjectIsValid = !isEmpty(subjectInput);
+        emailIsValid = !isEmpty(emailInput);
+        console.log(nameIsValid, subjectIsValid);
+
+
+        setEnteredInputIsValid({
+            name: nameIsValid,
+            subject: subjectIsValid,
+            email: emailIsValid
+        });
+        // setEnteredInput({
+        //      name: nameInput, subject: subjectInput, email: emailInput, message: messageInput 
+        // });
+        console.log(enteredInputIsValid);
+
+
+        if (Object.values(enteredInputIsValid).includes(false)) {
+            console.log("retured");
+            return;
+        }
+        else {
+            emailjs.sendForm('service_12zp0cn', 'template_p2laasx', form.current, 'mcYuAx8nf9nZk0jPO')
+                .then((result) => {
+                    console.log(result.text);
+                }, (error) => {
+                    console.log(error.text);
+                });
+
+            setDidSubmit(true);
+            event.target.reset();
+        }
 
     }
 
@@ -49,15 +91,18 @@ const Contact = () => {
                     <div className="c-right-wrapper">
                         <span className="c-right-title">
                             <b>What's your story?</b>
-                            <span className='title-light'> Get in touch. Always available for freelancing if the right project comes along.</span>
+                            <span className='title-light'> Get in touch. Always available if the right opportunity comes along.</span>
                         </span>
                         <div className="form-container">
                             <form action="" onSubmit={onContactSubmitHandler} ref={form}>
                                 <input type="text" placeholder='Name' name="name" />
-                                <input type="text" placeholder='Subject' name="subject" />
-                                <input type="text" placeholder='Email' name="email" />
+                                {!enteredInputIsValid.name && <p className="error-text">Entered name is invalid</p>}
+                                <input type="text" placeholder='Subject' name="subject"/>
+                                {!enteredInputIsValid.subject && <p className="error-text">Entered Subject is invalid</p>}
+                                <input type="text" placeholder='Email' name="email"/>
+                                {!enteredInputIsValid.email && <p className="error-text">Entered email is invalid</p>}
                                 <textarea placeholder='Message' name="message" />
-                                <button type='submit' className='button'>Submit</button>
+                                {didSubmit ? <p>Thankyou!</p> : <button type='submit' className='button'>Submit</button>}
                             </form>
                         </div>
 

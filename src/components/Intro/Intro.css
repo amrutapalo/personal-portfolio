@@ -2,7 +2,6 @@
     --orange-colour: orange;
     --font-size: 16px;
     --gray-colour: #263238;
-    --background-colour: #f9fbfc;
     --clr-travel: #ef257a;
     --clr-technology: #651fff;
     --clr-personal: #e85808;
@@ -15,7 +14,6 @@
     position: relative;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: var(--background-colour);
     cursor: default;
 
 }
@@ -44,6 +42,7 @@
     display: flex;
     flex-direction: column;
     height: 50%;
+    width:55%;
     justify-content: center;
     
 }

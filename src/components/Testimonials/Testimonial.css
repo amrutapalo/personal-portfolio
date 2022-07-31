@@ -10,8 +10,7 @@
 .carousel {
     display: flex;
     flex-direction: column;
-    background-color: #eceff1;
-    height: 60vh;
+    height: 100vh;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -19,7 +18,7 @@
 
 .carousel-container {
     display: flex;
-    width: 53vh;
+    width: 32vw;
     object-fit: cover;
     align-items: center;
     justify-content: center;

@@ -6,8 +6,8 @@ import Resume from '/Users/amrutapalo/Desktop/personal-portfolio/src/documents/R
 const Intro = () => {
     return (
         <div className="i" id='home'>
-            <div className="i-bg">
-            </div>
+            {/* <div className="i-bg">
+            </div> */}
             <div className="i-left">
                 <div className="i-left-wrapper">
                     <h2 className='i-intro'>Hello, my name is</h2>

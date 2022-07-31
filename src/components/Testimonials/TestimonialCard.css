@@ -2,7 +2,6 @@
     --font-size: 14px;
     --orange-colour: orange;
     --gray-colour: #263238;
-    --background-colour: #eceff1;
     --clr-travel: #ef257a;
     --clr-technology: #651fff;
     --clr-personal: #e85808;
@@ -10,11 +9,10 @@
 
 
 .testimonial-card{
-    background-color: var(--background-colour);
     margin: 1em;
     padding: 2em;
     box-sizing: border-box;
-    height: 25em;
+    height: 23em;
     width: 50vh;
     font-size: var(--font-size);
     position: relative;
