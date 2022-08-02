@@ -2,7 +2,9 @@ import React, { useState } from 'react'
 import Card from '../UI/Card';
 import './Testimonial.css';
 import TestimonialCard from './TestimonialCard';
-import testimonialOne from '/Users/amrutapalo/Desktop/personal-portfolio/src/images/testimonialone.jpg'
+import rajshree from '/Users/amrutapalo/Desktop/personal-portfolio/src/images/rajshree-nema.jpeg'
+import srijan from '/Users/amrutapalo/Desktop/personal-portfolio/src/images/srijan.jpeg'
+import naman from '/Users/amrutapalo/Desktop/personal-portfolio/src/images/naman.jpeg'
 import 'swiper/css';
 import "swiper/css/navigation";
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -15,7 +17,7 @@ const Testimonial = () => {
             review:
                 "I rarely come across people who have deep understanding of the minutest scenarios. I was immensely impressed with her priority and time management skills in place! She has even worked at odd hours to help her team members. She would be an asset to any team and earns my highest recommendation."
             ,
-            image: testimonialOne,
+            image: rajshree,
             name: "Rajshree Nema",
             designation: "SDE, Addverb Technolgies"
         },
@@ -23,7 +25,7 @@ const Testimonial = () => {
             review:
                 "Amruta is skilled software engineer with good design and logical thinking. She will be asset to the team wherever she goes."
             ,
-            image: testimonialOne,
+            image: naman,
             name: "Naman Gupta",
             designation: "Technology Lead, Addverb Technolgies"
         },
@@ -31,7 +33,7 @@ const Testimonial = () => {
             review:
                 "I had the pleasure of working with Amruta at Addverb. I was impressed with her ability of getting things done quickly and perfectly, especially during unexpected and close deadlines. We together have designed and developed for multiple projects. She is a highly focused person and earns my heartfelt recommendation! "
             ,
-            image: testimonialOne,
+            image: srijan,
             name: "Srijan Jain",
             designation: "SDE, Addverb Technolgies"
         }
