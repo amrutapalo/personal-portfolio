@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.b37591e4.css",
+    "main.js": "/personal-portfolio/static/js/main.62a4ce97.js",
+    "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
+    "static/media/amrutpalo-profile.JPG": "/personal-portfolio/static/media/amrutpalo-profile.3f72f064759b984b1de4.JPG",
+    "static/media/testimonialone.jpg": "/personal-portfolio/static/media/testimonialone.ada5d3bdc39da3c67cd8.jpg",
+    "static/media/Resume-amruta.pdf": "/personal-portfolio/static/media/Resume-amruta.9b33b8adbb25c2426dd2.pdf",
+    "static/media/address.png": "/personal-portfolio/static/media/address.a01cb8cc428702f30bec.png",
+    "static/media/email.png": "/personal-portfolio/static/media/email.a49e015815e3ac6d2bd3.png",
+    "static/media/phone.png": "/personal-portfolio/static/media/phone.d90a6d23cf5129d853bb.png",
+    "index.html": "/personal-portfolio/index.html",
+    "main.b37591e4.css.map": "/personal-portfolio/static/css/main.b37591e4.css.map",
+    "main.62a4ce97.js.map": "/personal-portfolio/static/js/main.62a4ce97.js.map",
+    "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b37591e4.css",
+    "static/js/main.62a4ce97.js"
+  ]
+}
