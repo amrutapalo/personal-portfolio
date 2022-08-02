@@ -9,12 +9,12 @@ import NavBar from './components/UI/NavBar';
 function App() {
   return (
     <div className="App">
-      <NavBar></NavBar>
       <Background></Background>
+      <NavBar className="NavBar"></NavBar>
 
-        <Intro></Intro>
-        <Testimonial></Testimonial>
-        <Contact></Contact>
+      <Intro></Intro>
+      <Testimonial></Testimonial>
+      <Contact></Contact>
 
     </div>
   );

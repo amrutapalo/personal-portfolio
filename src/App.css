@@ -34,3 +34,12 @@
     transform: rotate(360deg);
   }
 } */
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  overflow: hidden;
+  overflow-y: scroll;
+  height: max-content;
+}

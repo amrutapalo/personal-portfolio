@@ -12,10 +12,8 @@
     display: flex;
     height: 100vh;
     position: relative;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     cursor: default;
-
 }
 
 .i-left{
@@ -35,6 +33,7 @@
     align-items: center;
     height: 100%;
     position: relative;
+    margin: 2em;
 }
 
 .i-left-wrapper{
@@ -59,7 +58,7 @@
 }
 
 .i-title{
-    height: 70px;
+    height: 3em;
     overflow: hidden;
 }
 
@@ -130,5 +129,51 @@
     font-size: 1em;
     width :15em;
     margin-top: 1em;
+    border: 2px solid white;
+
+}
+.download-resume-btn:hover{
+    cursor: pointer;
+    background-color : rgb(255, 123, 0);
+    color: white;
+
+}
+
+@media (max-width:428px) {
+    /* smartphones, iPhone, portrait 480x320 phones */
+    .i-img{
+        display: none;
+    }
+}
+
+
+@media (max-width:900px) {
+    .i{
+        flex-flow: column-reverse;
+    }
+
+    .i-img{
+        height: 193px;
+        width: 193px;
+    }
+    .i-img:hover{
+        transform: scale(1)
+    }
+
+    .i-right{
+        height: min-content;
+    }
+    
+}
+
+@media (max-width: 321px){
+    .i-name{
+        font-size: 40px;
+    }
+
+    .download-resume-btn{
+        width: 14em;
+        font-size: 0.7em;
+    }
 
 }
