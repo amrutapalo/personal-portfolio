@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.b37591e4.css",
-    "main.js": "/personal-portfolio/static/js/main.4e962268.js",
+    "main.js": "/personal-portfolio/static/js/main.dad6ef4c.js",
     "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/amrutpalo-profile.JPG": "/personal-portfolio/static/media/amrutpalo-profile.3f72f064759b984b1de4.JPG",
+    "static/media/Resume-amruta.pdf": "/personal-portfolio/static/media/Resume-amruta.badbfe6aa36309cc15dc.pdf",
     "static/media/rajshree-nema.jpeg": "/personal-portfolio/static/media/rajshree-nema.32c76b2bcc8e0d3af54c.jpeg",
-    "static/media/Resume-amruta.pdf": "/personal-portfolio/static/media/Resume-amruta.32132979b64c3f04be9c.pdf",
     "static/media/naman.jpeg": "/personal-portfolio/static/media/naman.967287d0c65fccdcd921.jpeg",
     "static/media/srijan.jpeg": "/personal-portfolio/static/media/srijan.9a770310adbeffeb0ce8.jpeg",
     "static/media/address.png": "/personal-portfolio/static/media/address.a01cb8cc428702f30bec.png",
@@ -13,11 +13,11 @@
     "static/media/phone.png": "/personal-portfolio/static/media/phone.d90a6d23cf5129d853bb.png",
     "index.html": "/personal-portfolio/index.html",
     "main.b37591e4.css.map": "/personal-portfolio/static/css/main.b37591e4.css.map",
-    "main.4e962268.js.map": "/personal-portfolio/static/js/main.4e962268.js.map",
+    "main.dad6ef4c.js.map": "/personal-portfolio/static/js/main.dad6ef4c.js.map",
     "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b37591e4.css",
-    "static/js/main.4e962268.js"
+    "static/js/main.dad6ef4c.js"
   ]
 }
